@@ -1,14 +1,13 @@
 #Aqui se definieron  las variables
 
 Nm= input("Digite El Nombre Del Estudiante: " )
-Saludo = print("BIENVENIDO (A)" , Nm )
 Gno= input((" Cual es Tu Genero: M/ F "))
+print("BIENVENIDO (A)" , Nm )
 Nota1 = float(input("Ingresa La Nota1: "))
 Nota2 = float(input("ingresa La Nota2: "))
 Nota3 = float(input("Ingresa La Nota3: "))
 sm = Nota1 + Nota2 + Nota3 
 nf = sm / 3
-Nombre = Nm
 mod =0
 m=0
 f=0
