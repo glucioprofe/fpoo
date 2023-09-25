@@ -9,6 +9,8 @@ class vehiculo:
     #Metodos: Desde aqui se inician los metodos de la clase Vehiculo
     def setVelocidad(self, cant):
         self.__velocidad = self.__velocidad + cant
+        if(self.__velocidad<0):
+            self.__velocidad = 0
     def getVelocidad(self):
         return self.__velocidad 
 
